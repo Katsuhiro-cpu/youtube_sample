@@ -1,0 +1,7 @@
+streamlit
+json
+pandas
+unittest 
+result]
+apiclient.discovery
+build
