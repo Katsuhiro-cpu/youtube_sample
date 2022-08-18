@@ -87,7 +87,7 @@ st.sidebar.write('### クエリの入力')
 
 query = st.sidebar.text_input('検索クエリを入力してください','Python 学習')
 st.sidebar.write('### 閾値の設定')
-threshold = st.sidebar.slider('登録者数の閾値',0,50000000,10000)
+threshold = st.sidebar.slider('登録者数の閾値',0,100000,10000)
 
 st.write('### 選択中のパラメータ')
 st.markdown(f"""
