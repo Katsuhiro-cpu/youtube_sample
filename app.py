@@ -82,10 +82,10 @@ def get_results(df_video,threshold=1000):
 
 st.title('Youtube分析アプリ')
 
-st.sidebar.write('## クエリと閾値の設定')
-st.sidebar.write('### クエリの入力')
+st.sidebar.write('## ワードとチャンネル登録者の範囲設定')
+st.sidebar.write('### ワードの入力')
 
-query = st.sidebar.text_input('検索クエリを入力してください','Python 学習')
+query = st.sidebar.text_input('検索ワードを入力してください','腕立て')
 st.sidebar.write('### 閾値の設定')
 threshold = st.sidebar.slider('登録者数の閾値',0,100000,10000)
 
