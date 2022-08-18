@@ -92,7 +92,7 @@ threshold = st.sidebar.slider('登録者数の閾値',0,200000,100000)
 st.write('### 選択中のパラメータ')
 st.markdown(f"""
 - 検索ワード:{query}
-- 登録者数の閾値:{threshold}
+- 登録者数の範囲:{threshold}
 """)
 
 df_video = video_search(youtube,q=query,max_results=50)
